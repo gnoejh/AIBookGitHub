@@ -1,0 +1,82 @@
+# AI and OpenAI Dependencies
+# OpenAI Agents SDK - Core framework for AI agent functionality
+openai-agents[litellm]>=0.1.0
+litellm>=1.0.0  # LiteLLM for AI model integration
+anthropic>=0.7.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+
+# Data Analysis and ML
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+ta>=0.10.0  # Technical Analysis
+yfinance>=0.2.0
+plotly>=5.15.0
+
+# HTTP client for API communication
+aiohttp>=3.8.0
+websockets>=11.0.0  # WebSocket client for real-time data streaming
+requests>=2.31.0
+httpx>=0.24.0
+
+# WebSocket support for real-time data
+websockets>=12.0
+websocket-client>=1.6.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+PyYAML>=6.0
+
+# Data processing and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data validation and serialization
+pydantic>=2.5.0
+marshmallow>=3.20.0
+
+# Web framework for dashboard
+flask>=2.3.0
+flask-socketio>=5.3.0
+flask-cors>=4.0.0
+eventlet>=0.33.0
+jinja2>=3.1.0
+
+# Database support
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+aiosqlite>=0.19.0
+redis>=4.6.0
+
+# Crypto utilities and security
+cryptography>=41.0.0
+PyJWT>=2.8.0
+
+# Logging and utilities
+colorama>=0.4.6
+tqdm>=4.65.0
+rich>=13.0.0
+psutil>=5.9.0  # System monitoring
+
+# Time and date handling
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Reinforcement Learning
+gymnasium>=0.29.0  # Modern gym replacement
+torch>=2.0.0
+stable-baselines3>=2.0.0
+
+# Development tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
